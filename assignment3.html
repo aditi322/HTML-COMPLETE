@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Job Application Form</title>
+</head>
+<body>
+    <h1>Job Application Form</h1>
+
+    <form >
+        <label for="name">Full Name:</label><br>
+        <input type="text" name="name"><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" name="email"><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" name="password"><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="number"  name="phone"><br><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label for="education">Highest Education:</label><br>
+        <select id="education" name="education">
+            <option value="highschool">High School</option>
+            <option value="diploma">Diploma</option>
+            <option value="bachelor">Bachelor</option>
+            <option value="master">Master</option>
+            <option value="doctorate">Doctorate</option>
+        </select><br><br>
+
+        <label>Skills:</label><br>
+        <input type="checkbox" id="skill1" name="skills" value="communication">
+        <label for="skill1">Communication</label><br>
+        <input type="checkbox" id="skill2" name="skills" value="teamwork">
+        <label for="skill2">Teamwork</label><br>
+        <input type="checkbox" id="skill3" name="skills" value="programming">
+        <label for="skill3">Programming</label><br>
+        <input type="checkbox" id="skill4" name="skills" value="design">
+        <label for="skill4">Design</label><br><br>
+
+        <label for="about">About You:</label><br>
+        <textarea name="about" rows="4" cols="40"></textarea><br><br>
+
+        <label for="resume">Upload Resume:</label><br>
+        <input type="file" name="resume"><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

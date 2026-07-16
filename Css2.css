@@ -1,12 +1,28 @@
-*{
-    
+body {
+    /* margin: 0; */
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-weight: bold;
 }
+
+.profile-card {
+    width: 350px;
+    text-align: center;
+    background: white;
+    border: 1px solid black;
+    padding: 20px;
+}
+
 #profile-img {
     border: 2px solid black;
-    border-radius: 50%;
+    border-radius: 10%;
     width: 200px;
     height: 200px;
-    margin-left: 42.9%;
+    margin-left: 21.7%;
     margin-right: 42.9%;
     /* margin-top: 60px; */
 
@@ -17,11 +33,12 @@
     font-size: 32px;
     font-weight: bold;
     margin-top: 10px;
+    margin-bottom: 5px;
 }
 
-.profile-course{
-     margin-left: 47%;
-    /* text-align: center; */
+.profile-course {
+    /* margin-left: 2%; */
+    text-align: center;
     font-size: 22px;
     font-weight: bold;
     margin-top: 3px;
@@ -29,7 +46,7 @@
 }
 
 .email {
-    margin-left: 43%;
+    margin-left: 1%;
     margin-right: 0;
     font-size: 18px;
     margin-top: 5px;
@@ -39,7 +56,9 @@
 #connect-btn {
     border: 2px solid black;
     color: black;
-    margin-left: 46%;
+    /* margin-left: 4.3%; */
+    justify-content: center;
+    align-items: center;
     font-size: 15px;
     margin-top: 5px;
     display: inline;

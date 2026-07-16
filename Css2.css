@@ -1,0 +1,51 @@
+*{
+    
+}
+#profile-img {
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 42.9%;
+    margin-right: 42.9%;
+    /* margin-top: 60px; */
+
+}
+
+.profile-name {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.profile-course{
+     margin-left: 47%;
+    /* text-align: center; */
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+
+.email {
+    margin-left: 43%;
+    margin-right: 0;
+    font-size: 18px;
+    margin-top: 5px;
+    display: block;
+}
+
+#connect-btn {
+    border: 2px solid black;
+    color: black;
+    margin-left: 46%;
+    font-size: 15px;
+    margin-top: 5px;
+    display: inline;
+}
+
+#connect-btn:hover {
+    background-color: black;
+    color: white;
+}

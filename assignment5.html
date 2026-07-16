@@ -1,23 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .first{
-            color: blue;
-            font-size: 16px;
-          
-        }
-    </style>
-    <link rel="stylesheet" href="style.css">
+    <title>Portfolio of Aditi </title>
+    <meta name="description"
+        content="Portfolio website showcasing skills, projects, education, and contact details using only HTML.">
 </head>
+
 <body>
-    <h2 style="color: black; background-color: aquamarine;">Inline CSS Styling</h2> 
-    <p class="first">This is a simple paragraph to demonstrate Internal CSS styling and my first day of learning CSS. I will be implementing various CSS styles to enhance the appearance of the webpage.</p>
-    <p class="second">This is another paragraph to show how External CSS can be applied to multiple elements. I will be using different CSS properties such as color, font-size, and margin to style these paragraphs.</p>
-    <p class="third">CSS allows for a wide range of styling options, including background colors, borders</p>
-    <button id="myButton">ID as Selector</button>
+    <header>
+        <h1>Aditi M Taksale</h1>
+        <img src="https://www.perfocal.com/blog/content/images/size/w960/2021/01/Perfocal_17-11-2019_TYWFAQ_100_standard-3.jpg "
+            alt="Profile Image" width="200" height="200"> 
+        <br>
+        <a href="taksaleaditi322@gmail.com">taksaleaditi322@gmail.com</a> 
+        <p>Motivated IT student with practical experience in data analytics and software development. Skilled in building efficient solutions
+using Python, SQL, and web technologies. Quick learner with strong analytical thinking and adaptability.</p>
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#about">About</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#projects">Projects</a> |
+            <a href="#education">Education</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+<hr>
+    <section id="home">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Hello! I am Aditi!, a passionate developer building websites and data-driven solutions.</p>
+        <p>I enjoy creating clean, user-friendly experiences and learning new web
+            technologies.</p>
+
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>My name is Aditi M Taksale. I create meaningful applications with HTML and strong problem solving.</p>
+        <p>I am motivated by continuous learning, teamwork, and delivering digital solutions that work for people.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <h3>Technical Skills</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>MACHINE LEARNING</li>
+            <li>SQL</li>
+            <li>Python</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <article>
+            <h3>Project One: Hostel Management System</h3>
+            <p>Created a comprehensive hostel management system to streamline operations and improve student experience.
+            </p>
+        </article>
+        <article>
+            <h3>Project Two: Agrigenius</h3>
+            <p>Developed a data-driven agricultural solution to optimize crop yields and resource management.</p>
+        </article>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <table border="1">
+            <tr>
+                <th>Year</th>
+                <th>Institution</th>
+                <th>Degree</th>
+            </tr>
+            <tr>
+                <td>2026</td>
+                <td>Vivekanand Eductional Society's Institute of Technology</td>
+                <td>Bachelor of Engineering</td>
+            </tr>
+            <tr>
+                <td>2022</td>
+                <td>SR Patil Junior College</td>
+                <td>12th</td>
+            </tr>
+            <tr>
+                <td>2020</td>
+                <td>Noel School</td>
+                <td>10th</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="#">
+            <div>
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="message">Message</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <div>
+                <button type="submit">Send Message</button>
+            </div>
+        </form>
+    </section>
+
+    <section id="media">
+        <h2>Media</h2>
+        <p>Listen to a short greeting:</p>
+        <audio controls>
+            <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <section id="social">
+        <h2>Social Links</h2>
+        <ul>
+            <li><a href="https://github.com/aditi322">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/aditi-taksale-a47822357">LinkedIn</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Aditi Taksale. All rights reserved.</p>
+    </footer>
 </body>
+
 </html>

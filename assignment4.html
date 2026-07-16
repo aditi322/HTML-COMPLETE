@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Blog Layout</title>
+    <meta name="description"
+        content="A clean single-page blog website layout built with semantic HTML tags for better structure and accessibility.">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta property="og:title" content="Simple Blog Layout">
+    <meta property="og:description"
+        content="A clean single-page blog website layout built with semantic HTML tags for better structure and accessibility.">
+    <meta property="og:image" content="https://example.com/og-image.jpg">
+</head>
+
+<body>
+    <!-- <a href="#main">Skip to main content</a> -->
+
+    <header role="banner">
+        <div>
+            <img src="https://cdn.logojoy.com/wp-content/uploads/2018/05/30164225/572.png" alt="My Blog logo"
+                width="100" height="100">
+            <h1>My Blog</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section id="home">
+            <header>
+                <h2 id="home-heading">Welcome to My Blog</h2>
+            </header>
+            <p>Hi I'm glad you're here. This single-page blog demonstrates semantic HTML structure, accessibility
+                basics, and SEO meta tags. Use the navigation above to jump to sections on this page.</p>
+        </section>
+
+        <section id="about">
+            <header>
+                <h2 id="about-heading">About</h2>
+            </header>
+            <p>This blog focuses on web design fundamentals, accessibility, and practical HTML techniques. Content is
+                written with clarity in mind, using semantic tags to improve structure and discoverability.</p>
+        </section>
+
+        <section id="blog">
+            <header>
+                <h2 id="blog-heading">Blog</h2>
+                <p>Latest posts and insights about building accessible, semantic websites.</p>
+            </header>
+
+            <article id="post-1">
+                <header>
+                    <h3 id="post-1-title">The Power of Semantic HTML</h3>
+                    <p><small>Published <time datetime="2026-07-16">July 16, 2026</time> — <span>By Jane
+                                Doe</span></small></p>
+                </header>
+                <p>Semantic HTML provides meaning and context to web content. Using elements like header,
+                    nav,main,section,article,aside, and footer helps browsers, search engines, and assistive
+                    technologies better understand your pages.</p>
+                <p>Start with clear headings, descriptive link text, and proper landmark roles. Small changes improve
+                    accessibility and SEO simultaneously.</p>
+            </article>
+
+            <article id="post-2">
+                <header>
+                    <h3 id="post-2-title">Accessibility Basics for Every Site</h3>
+                    <p><small>Published <time datetime="2026-06-01">June 1, 2026</time> — <span>By John
+                                Smith</span></small></p>
+                </header>
+                <p>Accessibility starts with meaningful structure. Provide alt text for images, ensure sufficient color
+                    contrast, make interactive controls keyboard-accessible, and label form fields correctly.</p>
+            </article>
+        </section>
+
+        <aside>
+            <h2>Related Posts</h2>
+            <table>
+                <tr>
+                    <th>Title</th>
+                </tr>
+                <tr>
+                    <td><a href="#post-1">The Power of Semantic HTML</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#post-2">Accessibility Basics for Every Site</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">Writing Effective Meta Tags</a></td>
+                </tr>
+            </table>
+        </aside>
+
+        <section id="contact">
+            <header>
+                <h2 id="contact-heading">Contact</h2>
+            </header>
+            <p>If you'd like to get in touch, fill out the form below or email <a
+                    href="mailto:hello@example.com">hello@example.com</a>.</p>
+            <form action="#" method="post" aria-label="Contact form">
+                <div>
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Message</label><br>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div>
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <p>&copy; 2026 My Blog. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

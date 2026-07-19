@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADITI CSS DAY 3</title>
+    <style>
+        .container1,
+        .container2,
+        .container3,
+        .container4 {
+            border: 2px solid black;
+
+        }
+
+        .blue {
+            display: inline-block;
+            border: 2px solid;
+            background-color: blue;
+            height: 100px;
+            width: 100px;
+        }
+
+        .yellow {
+            display: inline-block;
+            border: 2px solid;
+            background-color: yellow;
+            height: 100px;
+            width: 100px;
+        }
+
+        .container1 .yellow {
+            position: relative;
+            top: 50px;
+            left: 50px;
+            z-index: 1;
+
+        }
+
+        .container1 .blue {
+            position: relative;
+        }
+
+        .container2 .yellow {
+            position: absolute;
+            bottom: 350px;
+            left: 50px;
+        }
+
+        .container3 .yellow {
+            position: fixed;
+            bottom: 75px;
+            right: 100px;
+           
+
+        }
+     
+        .texture {
+            border: 2px solid black;
+            width: 725px;
+            height: 150px;
+            overflow: auto;
+        }
+
+        .texture2 {
+            border: 2px solid black;
+            width: 725px;
+            height: 150px;
+            overflow: hidden;
+        }
+        .container4{
+            position: sticky;
+            top: 0;
+        }
+    </style>
+</head>
+
+<body>
+      <div class="container4">
+        <label class="blue">1</label>
+        <label class="yellow">Stiicky</label>
+        <label class="blue">3</label>
+    </div>
+      <br><br><br><br><br>
+    <div class="container1">
+        <label class="blue">1</label>
+        <label class="yellow">Relative </label>
+        <label class="blue" style="z-index: 2;">Z index as 2</label>
+    </div>
+    <br><br><br><br><br>
+    <div class="container2">
+        <label class="blue">1</label>
+        <label class="yellow">Absolute </label>
+        <label class="blue">3</label>
+    </div>
+    <br><br><br><br><br> <br><br>
+    <div class="container3">
+        <label class="blue">1</label>
+        <label class="yellow">Fixed</label>
+        <label class="blue">3</label>
+    </div>
+    <br><br>
+    <p> This is a simple paragraph for demonstrating Overflow Visible</p>
+    <br>
+    <div class="texture">
+        <p> Frontend development is the practice of building the user-facing portion of websites and web applications,
+            directly shaping how people experience the digital world. By combining design principles with technical
+            logic, frontend developers use HTML to structure content, CSS to style layouts responsively, and JavaScript
+            to add dynamic interactivity like animations and real-time updates. Modern development heavily relies on
+            advanced frameworks like React, Angular, and Vue to manage complex data and build reusable components
+            efficiently. Ultimately, the core goal of frontend development is to create seamless, fast, visually
+            appealing, and accessible interfaces that perform flawlessly across all devices and browsers
+            Frontend development is the practice of building the user-facing portion of websites and web applications,
+            directly shaping how people experience the digital world. By combining design principles with technical
+            logic, frontend developers use HTML to structure content, CSS to style layouts responsively, and JavaScript
+            to add dynamic interactivity like animations and real-time updates. Modern development heavily relies on
+            advanced frameworks like React, Angular, and Vue to manage complex data and build reusable components
+            efficiently. Ultimately, the core goal of frontend development is to create seamless, fast, visually
+            appealing, and accessible interfaces that perform flawlessly across all devices and browsers.</p>
+
+    </div>
+    <br><br>
+    <p> This is a simple paragraph for demonstrating Overflow Hidden</p>
+    <div class="texture2">
+        <p> Frontend development is the practice of building the user-facing portion of websites and web applications,
+            directly shaping how people experience the digital world. By combining design principles with technical
+            logic, frontend developers use HTML to structure content, CSS to style layouts responsively, and JavaScript
+            to add dynamic interactivity like animations and real-time updates. Modern development heavily relies on
+            advanced frameworks like React, Angular, and Vue to manage complex data and build reusable components
+            efficiently. Ultimately, the core goal of frontend development is to create seamless, fast, visually
+            appealing, and accessible interfaces that perform flawlessly across all devices and browsers
+            Frontend development is the practice of building the user-facing portion of websites and web applications,
+            directly shaping how people experience the digital world. By combining design principles with technical
+            logic, frontend developers use HTML to structure content, CSS to style layouts responsively, and JavaScript
+            to add dynamic interactivity like animations and real-time updates. Modern development heavily relies on
+            advanced frameworks like React, Angular, and Vue to manage complex data and build reusable components
+            efficiently. Ultimately, the core goal of frontend development is to create seamless, fast, visually
+            appealing, and accessible interfaces that perform flawlessly across all devices and browsers.</p>
+
+    </div>
+
+    
+
+    
+</body>
+
+</html>

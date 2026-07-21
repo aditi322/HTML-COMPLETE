@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing Page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI';
+            background: burlywood;
+            color: #1f2430;
+        }
+
+        .navbar {
+          display: flex;
+          justify-content: space-between;
+          margin-left: 20px;
+          margin-right: 20px;
+          margin-top: 20px;      
+        }
+
+        .brand {
+            font-size: 20px;
+            font-weight: 800;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;    
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            font-weight: 600;
+            color: black;
+        }
+
+        .product-section {
+            padding: 20px 40px 60px;
+        }
+
+        .product-grid {
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;   
+
+        }
+
+        .product-card {
+            background:cornsilk;
+            border-radius: 5px;
+            padding: 20px;
+            justify-content: center;
+            text-align: center;
+            width: 250px;
+         
+        }
+        .product-card img {
+            width: 100%;
+            height: 180px;
+            border-radius: 5px;
+        }
+
+        .product-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: black;
+        }
+
+        .product-price {
+            font-size: 18px;
+            font-weight: 700;
+            color: black;
+        }
+
+        .btn {
+            margin-top: 10px;
+            text-align: center;
+            background: black;
+            color:white;
+            padding: 10px 14px;
+            border-radius: 999px;
+            font-weight: 600;
+        }
+
+      
+  
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="brand">Yo Lets Shop!!</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="product-section">
+        <div class="product-grid">
+            <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80" alt="Leather Backpack">
+                <h3 class="product-title">Leather Backpack</h3>
+                <p class="product-price">99</p>
+                <button class="btn">Add to Cart</button>
+            </article>
+
+            <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80" alt="Running Shoes">
+                <h3 class="product-title">Running Shoes</h3>
+                <p class="product-price">84</p>
+                <button class="btn">Add to Cart</button>
+            </article>
+
+            <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80" alt="Minimal Watch">
+                <h3 class="product-title">Watch</h3>
+                <p class="product-price">97</p>
+                <button class="btn">Add to Cart</button>
+            </article>
+
+            <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80" alt="Smart Watch">
+                <h3 class="product-title">Smart Watch</h3>
+                <p class="product-price">29</p>
+                <button class="btn">Add to Cart</button>
+            </article>
+
+            <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=600&q=80" alt="Cotton Hoodie">
+                <h3 class="product-title">Hoodie</h3>
+                <p class="product-price">59</p>
+                <button class="btn">Add to Cart</button>
+            </article>
+
+            <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=600&q=80" alt="Sunglasses">
+                <h3 class="product-title">Sunglasses</h3>
+                <p class="product-price">49</p>
+                <button class="btn">Add to Cart</button>
+            </article>
+
+            <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=600&q=80" alt="Travel Tote">
+                <h3 class="product-title">Travel Tote</h3>
+                <p class="product-price">70</p>
+                <button class="btn">Add to Cart</button>
+            </article>
+
+            <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1487412912498-0447578fcca8?auto=format&fit=crop&w=600&q=80" alt="Desk Lamp">
+                <h3 class="product-title">Desk Lamp</h3>
+                <p class="product-price">54</p>
+                <button class="btn">Add to Cart</button>
+            </article>
+        </div>
+    </section>
+</body>
+</html>
